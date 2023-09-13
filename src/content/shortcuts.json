@@ -1,0 +1,112 @@
+[
+  {
+    "label": "VO key",
+    "shortcut": ["⌘", "⌥"],
+    "laptopShortcut": ["⌘", "fn", "⌥"]
+  },
+  {
+    "label": "Launch / Stop VoiceOver",
+    "shortcut": ["⌘", "F5"],
+    "laptopShortcut": ["⌘", "F5"]
+  },
+  {
+    "label": "Open the rotor",
+    "shortcut": ["VO", "U"],
+    "laptopShortcut": ["VO", "U"]
+  },
+  {
+    "label": "Move to next",
+    "shortcut": ["VO", "▶"],
+    "laptopShortcut": ["VO", "▶"]
+  },
+  {
+    "label": "Move to previous",
+    "shortcut": ["VO", "◀"],
+    "laptopShortcut": ["VO", "◀"]
+  },
+  {
+    "label": "Move down (into a group)",
+    "shortcut": ["VO", "⇧", "▼"],
+    "laptopShortcut": ["VO", "⇧", "▼"]
+  },
+  {
+    "label": "Move up (out of a group)",
+    "shortcut": ["VO", "⇧", "▲"],
+    "laptopShortcut": ["VO", "⇧", "▲"]
+  },
+  {
+    "label": "Move to the first item in the group",
+    "shortcut": ["VO", "⤒"],
+    "laptopShortcut": ["VO", "fn", "◀"]
+  },
+  {
+    "label": "Move to the last item in the group",
+    "shortcut": ["VO", "⤓"],
+    "laptopShortcut": ["VO", "fn", "▶"]
+  },
+  {
+    "label": "Move to the next link",
+    "shortcut": ["VO", "⌘", "L"],
+    "laptopShortcut": ["VO", "⌘", "L"]
+  },
+  {
+    "label": "Move to the next heading",
+    "shortcut": ["VO", "⌘", "H"],
+    "laptopShortcut": ["VO", "⌘", "H"]
+  },
+  {
+    "label": "Move to the next form ^",
+    "shortcut": ["VO", "⌘", "J"],
+    "laptopShortcut": ["VO", "⌘", "J"]
+  },
+  {
+    "label": "Move to the next form table",
+    "shortcut": ["VO", "⌘", "T"],
+    "laptopShortcut": ["VO", "⌘", "T"]
+  },
+  {
+    "label": "Move to the next form list",
+    "shortcut": ["VO", "⌘", "X"],
+    "laptopShortcut": ["VO", "⌘", "X"]
+  },
+  {
+    "label": "Move to the next form graphic",
+    "shortcut": ["VO", "⌘", "G"],
+    "laptopShortcut": ["VO", "⌘", "G"]
+  },
+  {
+    "label": "Click on a link of form item",
+    "shortcut": ["VO", "Space"],
+    "laptopShortcut": ["VO", "Space"]
+  },
+  {
+    "label": "Start reading",
+    "shortcut": ["VO", "A"],
+    "laptopShortcut": ["VO", "A"]
+  },
+  {
+    "label": "Stop reading",
+    "shortcut": ["^"],
+    "laptopShortcut": ["^"]
+  },
+  {
+    "label": "Read word",
+    "shortcut": ["VO", "W"],
+    "laptopShortcut": ["VO", "W"]
+  },
+  {
+    "label": "Read sentence",
+    "shortcut": ["VO", "S"],
+    "laptopShortcut": ["VO", "S"]
+  },
+  {
+    "label": "Read paragraph",
+    "shortcut": ["VO", "P"],
+    "laptopShortcut": ["VO", "P"]
+  },
+  {
+    "label": "Read from top to current location",
+    "shortcut": ["VO", "B"],
+    "laptopShortcut": ["VO", "B"]
+  }
+]

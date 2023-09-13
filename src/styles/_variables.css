@@ -1,0 +1,7 @@
+:root {
+  --clearGrey: #f1f1f1;
+  --grey: #ddd;
+  --black: hsl(0, 0%, 0%);
+  --radius: 4px;
+  --bold: 700;
+}

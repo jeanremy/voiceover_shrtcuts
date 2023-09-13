@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro'
+import SearchForm from '../components/SearchForm.astro'
+
+import shortcuts from '../content/shortcuts.json'
+---
+
+<Base>
+  <h1>Astro</h1>
+  <SearchForm />
+  {shortcuts.map((shrtct) => <li />)}
+</Base>
