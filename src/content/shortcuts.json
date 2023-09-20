@@ -1,112 +1,112 @@
 [
   {
     "label": "VO key",
-    "shortcut": ["⌘", "⌥"],
-    "laptopShortcut": ["⌘", "fn", "⌥"]
+    "keys": ["⌘", "⌥"],
+    "laptopKeys": ["⌘", "fn", "⌥"]
   },
   {
     "label": "Launch / Stop VoiceOver",
-    "shortcut": ["⌘", "F5"],
-    "laptopShortcut": ["⌘", "F5"]
+    "keys": ["⌘", "F5"],
+    "laptopKeys": ["⌘", "F5"]
   },
   {
     "label": "Open the rotor",
-    "shortcut": ["VO", "U"],
-    "laptopShortcut": ["VO", "U"]
+    "keys": ["VO", "U"],
+    "laptopKeys": ["VO", "U"]
   },
   {
     "label": "Move to next",
-    "shortcut": ["VO", "▶"],
-    "laptopShortcut": ["VO", "▶"]
+    "keys": ["VO", "▶"],
+    "laptopKeys": ["VO", "▶"]
   },
   {
     "label": "Move to previous",
-    "shortcut": ["VO", "◀"],
-    "laptopShortcut": ["VO", "◀"]
+    "keys": ["VO", "◀"],
+    "laptopKeys": ["VO", "◀"]
   },
   {
     "label": "Move down (into a group)",
-    "shortcut": ["VO", "⇧", "▼"],
-    "laptopShortcut": ["VO", "⇧", "▼"]
+    "keys": ["VO", "⇧", "▼"],
+    "laptopKeys": ["VO", "⇧", "▼"]
   },
   {
     "label": "Move up (out of a group)",
-    "shortcut": ["VO", "⇧", "▲"],
-    "laptopShortcut": ["VO", "⇧", "▲"]
+    "keys": ["VO", "⇧", "▲"],
+    "laptopKeys": ["VO", "⇧", "▲"]
   },
   {
     "label": "Move to the first item in the group",
-    "shortcut": ["VO", "⤒"],
-    "laptopShortcut": ["VO", "fn", "◀"]
+    "keys": ["VO", "⤒"],
+    "laptopKeys": ["VO", "fn", "◀"]
   },
   {
     "label": "Move to the last item in the group",
-    "shortcut": ["VO", "⤓"],
-    "laptopShortcut": ["VO", "fn", "▶"]
+    "keys": ["VO", "⤓"],
+    "laptopKeys": ["VO", "fn", "▶"]
   },
   {
     "label": "Move to the next link",
-    "shortcut": ["VO", "⌘", "L"],
-    "laptopShortcut": ["VO", "⌘", "L"]
+    "keys": ["VO", "⌘", "L"],
+    "laptopKeys": ["VO", "⌘", "L"]
   },
   {
     "label": "Move to the next heading",
-    "shortcut": ["VO", "⌘", "H"],
-    "laptopShortcut": ["VO", "⌘", "H"]
+    "keys": ["VO", "⌘", "H"],
+    "laptopKeys": ["VO", "⌘", "H"]
   },
   {
     "label": "Move to the next form ^",
-    "shortcut": ["VO", "⌘", "J"],
-    "laptopShortcut": ["VO", "⌘", "J"]
+    "keys": ["VO", "⌘", "J"],
+    "laptopKeys": ["VO", "⌘", "J"]
   },
   {
     "label": "Move to the next form table",
-    "shortcut": ["VO", "⌘", "T"],
-    "laptopShortcut": ["VO", "⌘", "T"]
+    "keys": ["VO", "⌘", "T"],
+    "laptopKeys": ["VO", "⌘", "T"]
   },
   {
     "label": "Move to the next form list",
-    "shortcut": ["VO", "⌘", "X"],
-    "laptopShortcut": ["VO", "⌘", "X"]
+    "keys": ["VO", "⌘", "X"],
+    "laptopKeys": ["VO", "⌘", "X"]
   },
   {
     "label": "Move to the next form graphic",
-    "shortcut": ["VO", "⌘", "G"],
-    "laptopShortcut": ["VO", "⌘", "G"]
+    "keys": ["VO", "⌘", "G"],
+    "laptopKeys": ["VO", "⌘", "G"]
   },
   {
     "label": "Click on a link of form item",
-    "shortcut": ["VO", "Space"],
-    "laptopShortcut": ["VO", "Space"]
+    "keys": ["VO", "Space"],
+    "laptopKeys": ["VO", "Space"]
   },
   {
     "label": "Start reading",
-    "shortcut": ["VO", "A"],
-    "laptopShortcut": ["VO", "A"]
+    "keys": ["VO", "A"],
+    "laptopKeys": ["VO", "A"]
   },
   {
     "label": "Stop reading",
-    "shortcut": ["^"],
-    "laptopShortcut": ["^"]
+    "keys": ["^"],
+    "laptopKeys": ["^"]
   },
   {
     "label": "Read word",
-    "shortcut": ["VO", "W"],
-    "laptopShortcut": ["VO", "W"]
+    "keys": ["VO", "W"],
+    "laptopKeys": ["VO", "W"]
   },
   {
     "label": "Read sentence",
-    "shortcut": ["VO", "S"],
-    "laptopShortcut": ["VO", "S"]
+    "keys": ["VO", "S"],
+    "laptopKeys": ["VO", "S"]
   },
   {
     "label": "Read paragraph",
-    "shortcut": ["VO", "P"],
-    "laptopShortcut": ["VO", "P"]
+    "keys": ["VO", "P"],
+    "laptopKeys": ["VO", "P"]
   },
   {
     "label": "Read from top to current location",
-    "shortcut": ["VO", "B"],
-    "laptopShortcut": ["VO", "B"]
+    "keys": ["VO", "B"],
+    "laptopKeys": ["VO", "B"]
   }
 ]

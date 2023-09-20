@@ -1,12 +1,10 @@
 ---
 import Base from '../layouts/Base.astro'
-import SearchForm from '../components/SearchForm.astro'
-
-import shortcuts from '../content/shortcuts.json'
+import SearchForm from '../components/SearchForm.tsx'
+import SearchResults from '../components/SearchResults.tsx'
 ---
 
 <Base>
-  <h1>Astro</h1>
-  <SearchForm />
-  {shortcuts.map((shrtct) => <li />)}
+  <SearchForm client:load />
+  <SearchResults client:load />
 </Base>
