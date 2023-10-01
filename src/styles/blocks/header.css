@@ -1,0 +1,30 @@
+.app-header {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 60px 16px calc(60px + 50px);
+  position: relative;
+  overflow: hidden;
+
+  &:before,
+  &:after {
+    content: '';
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+    position: absolute;
+    width: clamp(4rem, -4rem + 40vw, 12rem);
+    height: clamp(4rem, -4rem + 40vw, 12rem);
+  }
+
+  &:before {
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    background-color: var(--yellow);
+    transform: translate(-40%, -40%);
+  }
+
+  &:after {
+    inset-block-end: 0;
+    inset-inline-end: 0;
+    background-color: var(--green);
+    transform: translate(40%, 40%);
+  }
+}

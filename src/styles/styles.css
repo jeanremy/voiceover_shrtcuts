@@ -1,8 +1,13 @@
 @import '_reset.css';
-@import '_components.css';
 @import '_fonts.css';
 @import '_typography.css';
 @import '_variables.css';
+
+@import 'blocks/content.css';
+@import 'blocks/header.css';
+@import 'blocks/footer.css';
+@import 'blocks/search-form.css';
+@import 'blocks/shortcut.css';
 
 *,
 *:before,

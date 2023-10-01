@@ -6,9 +6,9 @@ const displayTitle = function (key: keyof keyLabels) {
 
 const Key = (props) => {
   return (
-    <p class="key" title={displayTitle(props.children)}>
+    <kbd class="key" title={displayTitle(props.children)}>
       {props.children}
-    </p>
+    </kbd>
   )
 }
 

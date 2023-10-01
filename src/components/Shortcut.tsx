@@ -10,14 +10,14 @@ const Shortcut = ({ shortcut }: Props) => {
   return (
     <li class="shortcut">
       <p class="shortcut__label">{label}</p>
-      <div class="keys">
+      <kbd class="keys">
         {keys.map((k: any, index) => (
           <>
-            {index > 0 && <p class="spacer">+</p>}
+            {index > 0 && <span class="spacer">+</span>}
             <Key>{k}</Key>
           </>
         ))}
-      </div>
+      </kbd>
     </li>
   )
 }
