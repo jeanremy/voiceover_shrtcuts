@@ -1,29 +1,35 @@
 ---
 import '../styles/styles.css'
+const {
+  frontmatter: { title },
+} = Astro.props
 ---
 
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>VoiceOver shortcuts</title>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="alternate icon" type="image/x-icon" href="/favicon.ico" />
+    <title>{title}</title>
   </head>
   <body>
     <header class="app-header">
       <div class="container">
-        <h1 class="app-title">VoiceOver <span>shortcuts</span></h1>
+        <p class="app-title">
+          <a href="/">VoiceOver <span>shortcuts</span></a>
+        </p>
       </div>
     </header>
     <main class="app-content">
       <div class="container">
-        <slot />
+        <article class="content">
+          <h1>{title}</h1>
+          <slot />
+        </article>
       </div>
     </main>
     <footer class="app-footer">
       <div class="container">
-        <a href="/about">About</a>
+        <a href="/about" aria-current="page">About</a>
       </div>
     </footer>
   </body>

@@ -1,0 +1,11 @@
+.app-title {
+  text-align: center;
+  font-size: clamp(1.3rem, 0.85rem + 2.25vw, 1.75rem);
+  font-weight: var(--bold);
+  line-height: 1.2;
+
+  span {
+    display: block;
+    font-size: 2em;
+  }
+}

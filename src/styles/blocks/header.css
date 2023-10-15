@@ -5,6 +5,10 @@
   position: relative;
   overflow: hidden;
 
+  a {
+    text-decoration: none;
+  }
+
   &:before,
   &:after {
     content: '';

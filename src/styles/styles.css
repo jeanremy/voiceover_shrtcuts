@@ -3,11 +3,14 @@
 @import '_typography.css';
 @import '_variables.css';
 
+@import 'blocks/app-title.css';
 @import 'blocks/content.css';
 @import 'blocks/header.css';
 @import 'blocks/footer.css';
 @import 'blocks/search-form.css';
 @import 'blocks/shortcut.css';
+
+@import 'composition/content.css';
 
 *,
 *:before,

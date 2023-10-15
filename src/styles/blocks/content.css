@@ -3,3 +3,9 @@
   z-index: 1;
   margin-block-start: -50px;
 }
+
+.content {
+  padding: 1.5rem 2rem;
+  background-color: var(--white);
+  border-radius: var(--radius);
+}

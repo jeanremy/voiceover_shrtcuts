@@ -34,7 +34,6 @@ html {
 
 /* Set core body defaults */
 body {
-  text-rendering: optimizeSpeed;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -49,6 +48,10 @@ ol[class] {
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
+}
+
+a {
+  color: inherit;
 }
 
 /* Make images easier to work with */
