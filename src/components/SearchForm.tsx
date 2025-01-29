@@ -2,19 +2,21 @@ import { setSearch } from '../stores/search'
 
 const SearchForm = () => {
   return (
-    <form class="search-form">
+    <form class="search-form" method="get">
       <div className="search-form__input">
         <label for="search">Search</label>
         <input
           id="search"
           type="text"
+          autoComplete="false"
           onInput={(e) => {
             setSearch((e.target as HTMLInputElement).value)
           }}
         />
       </div>
 
-      <button type="submit" title="Search">
+
+      <button type="submit" aria-label="Search">
         <svg
           width="24"
           height="24"

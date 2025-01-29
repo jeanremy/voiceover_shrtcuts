@@ -1,112 +1,90 @@
 [
   {
     "label": "VO key",
-    "keys": ["⌘", "⌥"],
-    "laptopKeys": ["⌘", "fn", "⌥"]
+    "keys": ["^", "⌥"]
   },
   {
     "label": "Launch / Stop VoiceOver",
-    "keys": ["⌘", "F5"],
-    "laptopKeys": ["⌘", "F5"]
+    "keys": ["⌘", "F5"]
   },
   {
     "label": "Open the rotor",
-    "keys": ["VO", "U"],
-    "laptopKeys": ["VO", "U"]
+    "keys": ["VO", "U"]
   },
   {
     "label": "Move to next",
-    "keys": ["VO", "▶"],
-    "laptopKeys": ["VO", "▶"]
+    "keys": ["VO", "▶"]
   },
   {
     "label": "Move to previous",
-    "keys": ["VO", "◀"],
-    "laptopKeys": ["VO", "◀"]
+    "keys": ["VO", "◀"]
   },
   {
     "label": "Move down (into a group)",
-    "keys": ["VO", "⇧", "▼"],
-    "laptopKeys": ["VO", "⇧", "▼"]
+    "keys": ["VO", "⇧", "▼"]
   },
   {
     "label": "Move up (out of a group)",
-    "keys": ["VO", "⇧", "▲"],
-    "laptopKeys": ["VO", "⇧", "▲"]
+    "keys": ["VO", "⇧", "▲"]
   },
   {
     "label": "Move to the first item in the group",
-    "keys": ["VO", "⤒"],
-    "laptopKeys": ["VO", "fn", "◀"]
+    "keys": ["VO", "⤒"]
   },
   {
     "label": "Move to the last item in the group",
-    "keys": ["VO", "⤓"],
-    "laptopKeys": ["VO", "fn", "▶"]
+    "keys": ["VO", "⤓"]
   },
   {
     "label": "Move to the next link",
-    "keys": ["VO", "⌘", "L"],
-    "laptopKeys": ["VO", "⌘", "L"]
+    "keys": ["VO", "⌘", "L"]
   },
   {
     "label": "Move to the next heading",
-    "keys": ["VO", "⌘", "H"],
-    "laptopKeys": ["VO", "⌘", "H"]
+    "keys": ["VO", "⌘", "H"]
   },
   {
     "label": "Move to the next form ^",
-    "keys": ["VO", "⌘", "J"],
-    "laptopKeys": ["VO", "⌘", "J"]
+    "keys": ["VO", "⌘", "J"]
   },
   {
     "label": "Move to the next form table",
-    "keys": ["VO", "⌘", "T"],
-    "laptopKeys": ["VO", "⌘", "T"]
+    "keys": ["VO", "⌘", "T"]
   },
   {
     "label": "Move to the next form list",
-    "keys": ["VO", "⌘", "X"],
-    "laptopKeys": ["VO", "⌘", "X"]
+    "keys": ["VO", "⌘", "X"]
   },
   {
     "label": "Move to the next form graphic",
-    "keys": ["VO", "⌘", "G"],
-    "laptopKeys": ["VO", "⌘", "G"]
+    "keys": ["VO", "⌘", "G"]
   },
   {
     "label": "Click on a link of form item",
-    "keys": ["VO", "Space"],
-    "laptopKeys": ["VO", "Space"]
+    "keys": ["VO", "Space"]
   },
   {
     "label": "Start reading",
-    "keys": ["VO", "A"],
-    "laptopKeys": ["VO", "A"]
+    "keys": ["VO", "A"]
   },
   {
     "label": "Stop reading",
-    "keys": ["^"],
-    "laptopKeys": ["^"]
+    "keys": ["^"]
   },
   {
     "label": "Read word",
-    "keys": ["VO", "W"],
-    "laptopKeys": ["VO", "W"]
+    "keys": ["VO", "W"]
   },
   {
     "label": "Read sentence",
-    "keys": ["VO", "S"],
-    "laptopKeys": ["VO", "S"]
+    "keys": ["VO", "S"]
   },
   {
     "label": "Read paragraph",
-    "keys": ["VO", "P"],
-    "laptopKeys": ["VO", "P"]
+    "keys": ["VO", "P"]
   },
   {
     "label": "Read from top to current location",
-    "keys": ["VO", "B"],
-    "laptopKeys": ["VO", "B"]
+    "keys": ["VO", "B"]
   }
 ]

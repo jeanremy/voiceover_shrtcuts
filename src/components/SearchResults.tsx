@@ -13,11 +13,13 @@ const SearchResults = () => {
     : shortcuts
 
   return (
-    <ul>
-      {list.map((shrtct) => (
-        <ShortcutComponent shortcut={shrtct} />
-      ))}
-    </ul>
+    <>
+      <ul>
+        {list.map((shrtct) => (
+          <ShortcutComponent shortcut={shrtct} />
+        ))}
+      </ul>
+    </>
   )
 }
 
